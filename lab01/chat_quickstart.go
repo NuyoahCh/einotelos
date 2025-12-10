@@ -18,7 +18,7 @@ func main() {
 
 	// 2. 创建 ChatModel 实例
 	chatModel, err := deepseek.NewChatModel(ctx, &deepseek.ChatModelConfig{
-		APIKey:  os.Getenv("deepseek_api_key"), // 获取环境变量中的 APIKey 配置
+		APIKey:  os.Getenv("DEEPSEEK_API_KEY"), // 获取环境变量中的 APIKey 配置
 		Model:   "deepseek-chat",               // 指定使用的模型名称
 		BaseURL: "https://api.deepseek.com",    // 自选的 API 服务器地址
 	})
