@@ -28,8 +28,8 @@ func main() {
 
 	// 3. 准备发送聊天请求
 	messages := []*schema.Message{
-		schema.SystemMessage("你是一个知识渊博的篮球解说员"),
-		schema.UserMessage("你好，请介绍一下 Kobe Bryant 的职业生涯。"),
+		schema.SystemMessage("你是一个知识渊博的篮球解说员"),            // 系统消息，设定对话背景
+		schema.UserMessage("你好，请介绍一下 Kobe Bryant 的职业生涯。"), // 用户消息，提出问题
 	}
 
 	// 4. 调用模型生成响应
