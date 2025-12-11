@@ -25,7 +25,7 @@ func main() {
 
 	// 步骤 2: 加载 HTML 文件
 	docs, err := fileLoader.Load(ctx, document.Source{
-		URI: "./testdata/article.html",
+		URI: "./testdata/article.html", // 根据实际文件路径修改
 	})
 	if err != nil {
 		log.Fatalf("加载文档失败: %v", err)
