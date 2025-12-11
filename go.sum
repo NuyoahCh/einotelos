@@ -70,6 +70,10 @@ github.com/cloudwego/eino-ext/components/document/loader/url v0.0.0-202512081204
 github.com/cloudwego/eino-ext/components/document/loader/url v0.0.0-20251208120430-a84219023f62/go.mod h1:/IeSk52Hhym5AUjCs3ESTF5Nb0RLYFWW8llSpWuc/JA=
 github.com/cloudwego/eino-ext/components/document/parser/html v0.0.0-20241224063832-9fbcc0e56c28 h1:Z1cWrlqxdc5IuPV1UcqoW2BGlFr7IQJHGwn7I3Tax0A=
 github.com/cloudwego/eino-ext/components/document/parser/html v0.0.0-20241224063832-9fbcc0e56c28/go.mod h1:e+Hf9OyKXFxAoCTF3thTm2Sz8KDfJ/iiEOHOmADpxRI=
+github.com/cloudwego/eino-ext/components/document/parser/html v0.0.0-20251208120430-a84219023f62 h1:MfUzAroRbE2BX+iq0Jzk7RL7m4+K/kDUq+59pK+Luqg=
+github.com/cloudwego/eino-ext/components/document/parser/html v0.0.0-20251208120430-a84219023f62/go.mod h1:DBwsPrdNxPeE3HNr5XyjjFreG4ypqCUjN0T2C2JSy6k=
+github.com/cloudwego/eino-ext/components/document/parser/pdf v0.0.0-20251208120430-a84219023f62 h1:Gm9JyVEmHOZj3+7IJ5zBJBKT3Q0VZWp81FEJQ+MiVg4=
+github.com/cloudwego/eino-ext/components/document/parser/pdf v0.0.0-20251208120430-a84219023f62/go.mod h1:kHC3xkGM/gv3IHpOk33p75BfBaEIYATOs2XmYFKffcs=
 github.com/cloudwego/eino-ext/components/model/deepseek v0.1.0 h1:LutIVpQaqXaXNhn3RkSB0dWyBldQ0oxq2pecyW4jqyU=
 github.com/cloudwego/eino-ext/components/model/deepseek v0.1.0/go.mod h1:vw0nNT4ihlVwR8EuyZQZEbKaxXY/86v7LIwyeoyO6R0=
 github.com/cohesion-org/deepseek-go v1.3.2 h1:WTZ/2346KFYca+n+DL5p+Ar1RQxF2w/wGkU4jDvyXaQ=
@@ -77,6 +81,8 @@ github.com/cohesion-org/deepseek-go v1.3.2/go.mod h1:bOVyKj38r90UEYZFrmJOzJKPxuA
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/dslipak/pdf v0.0.2 h1:djAvcM5neg9Ush+zR6QXB+VMJzR6TdnX766HPIg1JmI=
+github.com/dslipak/pdf v0.0.2/go.mod h1:2L3SnkI9cQwnAS9gfPz2iUoLC0rUZwbucpbKi5R1mUo=
 github.com/dustin/go-humanize v1.0.1 h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=
 github.com/dustin/go-humanize v1.0.1/go.mod h1:Mu1zIs6XwVuF/gI1OepvI0qD18qycQx+mFykh5fBlto=
 github.com/eino-contrib/jsonschema v1.0.3 h1:2Kfsm1xlMV0ssY2nuxshS4AwbLFuqmPmzIjLVJ1Fsp0=
