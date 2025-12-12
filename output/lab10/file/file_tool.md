@@ -1,0 +1,1 @@
+写入结果: {"success":true,"message":"写入成功"}\n读取结果: {"content":"Hello from Eino Tool!\\n这是测试内容。"}\n%                                          
