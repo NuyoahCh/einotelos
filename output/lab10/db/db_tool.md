@@ -1,0 +1,1 @@
+查询参数: {"user_id":1}\n结果: [{"id":1,"name":"张三","email":"zhangsan@example.com","age":28}]\n\n查询参数: {"name":"李四"}\n结果: [{"id":2,"name":"李四","email":"lisi@example.com","age":32}]\n\n查询参数: {"user_id":999}\n结果: {"message":"未找到匹配的用户"}\n\n%                                                

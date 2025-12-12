@@ -1,0 +1,1 @@
+北京 天气: {"condition":"晴天","humidity":"45%","temperature":"25°C","wind":"北风3级"}\n上海 天气: {"condition":"多云","humidity":"65%","temperature":"28°C","wind":"东南风2级"}\n广州 天气: {"error":"暂无 广州 的天气数据"}\n%   
