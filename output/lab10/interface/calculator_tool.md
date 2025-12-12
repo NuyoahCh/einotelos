@@ -1,0 +1,1 @@
+add(10, 5) = {"result":15}\nsubtract(10, 5) = {"result":5}\nmultiply(10, 5) = {"result":50}\ndivide(10, 5) = {"result":2}\ndivide(10, 0) = {"result":0,"error":"除数不能为0"}\n%   
