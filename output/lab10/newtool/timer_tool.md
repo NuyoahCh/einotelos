@@ -1,0 +1,1 @@
+格式=date, 结果={"current_time":"2025-12-12"}\n格式=time, 结果={"current_time":"17:52:31"}\n格式=datetime, 结果={"current_time":"2025-12-12 17:52:31"}\n格式=, 结果={"current_time":"2025-12-12 17:52:31"}\n% 
