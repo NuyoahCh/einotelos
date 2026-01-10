@@ -3,6 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, Einox!")
-	fmt.Println("模块二：Eino 实战项目篇（to be implemented）")
+	fmt.Println("开始第二模块的搭建")
 }
