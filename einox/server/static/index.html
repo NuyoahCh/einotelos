@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 学习助手 - Eino 教学示例</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 侧边栏 -->
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="logo-icon">🎓</span>
+                <span class="logo-text">AI 学习助手</span>
+            </div>
+            <nav class="nav">
+                <button class="nav-item active" data-mode="chat">
+                    <span class="nav-icon">💬</span>
+                    <span>智能对话</span>
+                </button>
+                <button class="nav-item" data-mode="knowledge">
+                    <span class="nav-icon">📚</span>
+                    <span>知识库问答</span>
+                </button>
+                <button class="nav-item" data-mode="tools">
+                    <span class="nav-icon">🔧</span>
+                    <span>学习工具</span>
+                </button>
+                <button class="nav-item" data-mode="code">
+                    <span class="nav-icon">💻</span>
+                    <span>代码助手</span>
+                </button>
+                <button class="nav-item" data-mode="translate">
+                    <span class="nav-icon">🌐</span>
+                    <span>翻译助手</span>
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <p>基于 Eino 框架</p>
+                <p>豆包大模型驱动</p>
+            </div>
+        </aside>
+
+        <!-- 主内容区 -->
+        <main class="main">
+            <header class="header">
+                <h1 id="mode-title">💬 智能对话</h1>
+                <p id="mode-desc">自由问答，支持多轮对话</p>
+            </header>
+
+            <!-- 知识库管理面板 -->
+            <div id="knowledge-panel" class="knowledge-panel hidden">
+                <div class="knowledge-header">
+                    <span>📖 知识库管理</span>
+                    <span id="knowledge-count">0 条记录</span>
+                </div>
+                <div class="knowledge-actions">
+                    <input type="text" id="knowledge-input" placeholder="输入要添加的知识内容...">
+                    <button id="add-knowledge" class="btn btn-primary">添加</button>
+                    <button id="clear-knowledge" class="btn btn-danger">清空</button>
+                </div>
+            </div>
+
+            <!-- 对话区域 -->
+            <div class="chat-container" id="chat-container">
+                <div class="welcome-message">
+                    <div class="welcome-icon">👋</div>
+                    <h2>欢迎使用 AI 学习助手</h2>
+                    <p>选择左侧功能开始体验</p>
+                </div>
+            </div>
+
+            <!-- 输入区域 -->
+            <div class="input-container">
+                <textarea 
+                    id="user-input" 
+                    placeholder="输入你的问题..."
+                    rows="1"
+                ></textarea>
+                <button id="send-btn" class="send-btn">
+                    <span>发送</span>
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
