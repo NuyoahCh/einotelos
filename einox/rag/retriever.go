@@ -225,3 +225,8 @@ func (r *SimpleRAG) Query(ctx context.Context, query string) (string, []*Documen
 	context := BuildContext(docs)
 	return context, docs, nil
 }
+
+// GetStore 获取向量存储
+func (r *SimpleRAG) GetStore() VectorStore {
+	return r.store
+}
