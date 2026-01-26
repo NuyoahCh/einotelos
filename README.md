@@ -3,7 +3,7 @@ The ultimate LLM/AI application development framework for teaching in Golang lan
 
 >模块一：Eino 全流程指南（done）
 
->模块二：Eino 实战项目篇（to be implemented）
+>模块二：Eino 实战项目篇（done）
 
 
 CloudWeGo Eino CloudWeGo大语言模型应用开发框架。
