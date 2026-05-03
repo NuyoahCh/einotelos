@@ -1,6 +1,6 @@
 module github.com/NuyoahCh/einotelos
 
-go 1.24.10
+go 1.25.0
 
 require (
 	github.com/cloudwego/eino v0.7.8
