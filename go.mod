@@ -1,4 +1,4 @@
-module github.com/NuyoahCh/einotelos
+module github.com/celanwang/einotelos
 
 go 1.25.0
 
